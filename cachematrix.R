@@ -4,7 +4,7 @@
 
 ## This function creates a special "matrix" object that can cache its inverse
 
-makeCacheMatrix <- function(x = matrix()) {
+makeCacheMatrix <- function(x = matrix()) { 
         ## x is an invertabile matrix
         ## returns a list containing functions to
         ##              1. set the matrix
